@@ -1,0 +1,36 @@
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+# hermes <img src=man/figures/logo.png align="right" height="139" alt="logo"/>
+
+## Introduction
+
+The *Ages of Man* project applies advanced statistical methodology on
+remote sensing agriculture. It is composed of several R packages, as
+well as other elements, each one focusing on a different application.
+hermes is an R project that stores files. It includes executable R
+scripts, shiny applications, rmd reports, plots and more.
+
+## Download
+
+The project can be downloaded from the [hermes github
+repository](https://github.com/agesofman/hermes "hermes github repository"),
+or with the `agesofman` package. More information can be found in the
+[agesofman github
+repository](https://github.com/agesofman/agesofman "agesofman github repository")
+
+## Documentation
+
+Detailed documentation, along with reproducible examples, can be found
+in the package vignette
+`vignette(topic = "agesofman", package = "agesofman")`.
+
+## Team
+
+The *Ages of Man* project is developed in the [Mathematics
+Department](https://en.math.uoa.gr/ "Mathematics Department Homepage")
+of the [University of
+Athens](https://en.uoa.gr/ "University of Athens Homepage"). The project
+maintainer is [Ioannis
+Oikonomidis](http://users.uoa.gr/~goikon/ "Ioannis Oikonomidis Homepage"),
+working under the supervision of Prof. Samis Trevezas.
