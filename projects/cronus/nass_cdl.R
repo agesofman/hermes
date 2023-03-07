@@ -14,7 +14,7 @@ variable <- "cdl"
 download(x, variable)
 
 # Plot
-cronus::plot(x, variable, crop = c("Corn", "Soybeans", "Oats", "Winter Wheat"), year = 2021)
+plot(x, variable, crop = c("Corn", "Soybeans", "Oats", "Winter Wheat"), year = 2021)
 
 # ----------------------------------
 # Reproject                     ----

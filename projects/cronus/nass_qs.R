@@ -8,12 +8,15 @@
 
 # Create object
 x <- new("Quickstats", region = region, date = date)
-variable <- "progress"
+variable <- "Progress"
 
 # Download
 data <- download(x, variable, ringname)
 
+# Read saved data
+data <- read(x, variable)
+
 # Plot
-plot(x, variable, crops = "Winter Wheat", year = 2021)
+plot(data, crops = "Winter Wheat", year = 2021)
 
 # ----------------------------------
